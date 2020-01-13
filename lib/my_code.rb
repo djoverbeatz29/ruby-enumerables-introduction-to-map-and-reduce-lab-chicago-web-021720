@@ -49,6 +49,11 @@ def reduce_to_all_true(array)
 end
 
 def reduce_to_any_true(array)
-  
+  for ho in array do
+    if ho
+      return true
+    end
+  end
+  return false
 end
 
