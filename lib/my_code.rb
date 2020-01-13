@@ -27,11 +27,12 @@ def map_to_square(array)
   # array.map{ |i| i**2}
   for i in 0...array.length do
     array[i] *= array[i]
+  end
   array
 end
 
 def reduce_to_total(array)
-  
+  # array.reduce(:+)
 end
 
 def reduce_to_all_true(array)
