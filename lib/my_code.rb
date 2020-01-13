@@ -19,6 +19,7 @@ def map_to_double(array)
   # array.map{ |i| i*2}
   for i in 0...array.length do
     array[i] *= 2
+  end
   array
 end
 
