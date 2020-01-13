@@ -31,8 +31,8 @@ def map_to_square(array)
   array
 end
 
-def reduce_to_total(array)
-  # array.reduce(:+)
+def reduce_to_total(array, starting_point)
+  # array.reduce(starting_point, :+)
 end
 
 def reduce_to_all_true(array)
