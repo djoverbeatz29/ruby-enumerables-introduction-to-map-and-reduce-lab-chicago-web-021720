@@ -34,7 +34,9 @@ end
 def reduce_to_total(array, starting_point = 0)
   # array.reduce(starting_point, :+)
   for ho in array do
-    starting_point += 
+    starting_point += ho
+  end
+  starting_point
 end
 
 def reduce_to_all_true(array)
